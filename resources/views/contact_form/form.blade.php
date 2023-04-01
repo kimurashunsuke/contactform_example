@@ -83,7 +83,7 @@
     <div class="register-box">
         <div class="card card-outline card-primary">
             <div class="card-header text-center">
-                Simple Contact Form
+                横浜ネットサポート様 デモ用
             </div>
             <div class="card-body">
                 <p class="login-box-msg">*は必須項目です</p>
