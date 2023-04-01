@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/contact_form', ContactForm\ShowContactFormPageController::class)->name('form');
+Route::post('/contact_form', ContactForm\SendMailController::class)->name('post');
+
